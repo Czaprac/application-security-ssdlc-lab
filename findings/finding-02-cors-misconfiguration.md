@@ -120,6 +120,30 @@ Example command:
 curl -I http://127.0.0.1:3000/robots.txt
 ```
 
+## Manual Validation
+
+Manual validation was performed using `curl` against the local Juice Shop instance.
+
+Commands used:
+
+```cmd
+curl -I http://127.0.0.1:3000/
+curl -I http://127.0.0.1:3000/sitemap.xml
+```
+
+Observed result:
+
+- Both responses returned `HTTP/1.1 200 OK`.
+- The following header was present in the observed response headers:
+
+```text
+Access-Control-Allow-Origin: *
+```
+
+Conclusion:
+
+The permissive CORS configuration was manually confirmed for the tested endpoints.
+
 ## Notes
 
 This finding was identified in a local intentionally vulnerable training application.
