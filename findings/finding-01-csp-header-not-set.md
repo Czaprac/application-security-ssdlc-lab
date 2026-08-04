@@ -59,11 +59,11 @@ The issue is related to missing or incomplete security-related HTTP response hea
 
 ### OWASP ASVS
 
-- OWASP ASVS v5.0.0-3.4.3
+- OWASP ASVS v5.0.0-3.4.7
 
 Rationale:
 
-ASVS v5.0.0-3.4.3 verifies that HTTP responses include a Content-Security-Policy response header field that defines directives limiting which trusted content or resources the browser may load and execute.
+ASVS v5.0.0-3.4.7 is related to the `Content-Security-Policy` header and the need to define directives that limit which trusted content and resources the browser may load and execute.
 
 ## Possible Impact
 
