@@ -17,6 +17,7 @@ Completed so far:
 - Target application setup documented
 - Basic OWASP ZAP baseline scan completed and summarized
 - Two medium-risk DAST findings documented
+- Remediation summary prepared for selected DAST findings
 
 Next planned steps:
 
@@ -58,6 +59,7 @@ Local URL:
 - [DAST Baseline Scan - OWASP ZAP](scans/dast-zap-baseline.md)
 - [Finding 01 - Content Security Policy Header Not Set](findings/finding-01-csp-header-not-set.md)
 - [Finding 02 - Cross-Domain Misconfiguration](findings/finding-02-cors-misconfiguration.md)
+- - [Remediation Summary - DAST Findings](remediation/remediation-summary.md)
 
 ## Lab Scope
 
