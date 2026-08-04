@@ -14,6 +14,7 @@ Completed so far:
 - OWASP Juice Shop started locally as a Docker container
 - Target application scope defined
 - Local-only exposure confirmed
+- Target application setup documented
 
 Next planned steps:
 
@@ -48,6 +49,10 @@ Local URL:
 - Container name: juice-shop
 - Local port mapping: 127.0.0.1:3000 -> 3000/tcp
 - Exposure: localhost only
+
+## Documentation
+
+- [OWASP Juice Shop Setup](target-app/juice-shop-setup.md)
 
 ## Lab Scope
 
