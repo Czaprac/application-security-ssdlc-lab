@@ -125,6 +125,19 @@ Commands used:
 ```cmd
 curl -I http://127.0.0.1:3000/
 curl -I http://127.0.0.1:3000/sitemap.xml
+```
+
+Observed result:
+
+- Both responses returned `HTTP/1.1 200 OK`.
+- The `Content-Security-Policy` header was not present in the observed response headers.
+- Other security-related headers were present, including:
+  - `X-Content-Type-Options: nosniff`
+  - `X-Frame-Options: SAMEORIGIN`
+
+Conclusion:
+
+The missing `Content-Security-Policy` header was manually confirmed for the tested endpoints.
 
 ## Notes
 
