@@ -15,6 +15,7 @@ Completed so far:
 - Target application scope defined
 - Local-only exposure confirmed
 - Target application setup documented
+- Basic OWASP ZAP baseline scan completed and summarized
 
 Next planned steps:
 
@@ -53,6 +54,7 @@ Local URL:
 ## Documentation
 
 - [OWASP Juice Shop Setup](target-app/juice-shop-setup.md)
+- [DAST Baseline Scan - OWASP ZAP](scans/dast-zap-baseline.md)
 
 ## Lab Scope
 
