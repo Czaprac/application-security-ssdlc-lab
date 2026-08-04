@@ -16,6 +16,7 @@ Completed so far:
 - Local-only exposure confirmed
 - Target application setup documented
 - Basic OWASP ZAP baseline scan completed and summarized
+- Two medium-risk DAST findings documented
 
 Next planned steps:
 
@@ -56,6 +57,7 @@ Local URL:
 - [OWASP Juice Shop Setup](target-app/juice-shop-setup.md)
 - [DAST Baseline Scan - OWASP ZAP](scans/dast-zap-baseline.md)
 - [Finding 01 - Content Security Policy Header Not Set](findings/finding-01-csp-header-not-set.md)
+- [Finding 02 - Cross-Domain Misconfiguration](findings/finding-02-cors-misconfiguration.md)
 
 ## Lab Scope
 
