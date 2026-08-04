@@ -116,6 +116,16 @@ Example command:
 curl -I http://127.0.0.1:3000
 ```
 
+## Manual Validation
+
+Manual validation was performed using `curl` against the local Juice Shop instance.
+
+Commands used:
+
+```cmd
+curl -I http://127.0.0.1:3000/
+curl -I http://127.0.0.1:3000/sitemap.xml
+
 ## Notes
 
 This finding was identified in a local intentionally vulnerable training application.
