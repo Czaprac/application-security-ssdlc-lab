@@ -55,6 +55,7 @@ Local URL:
 
 - [OWASP Juice Shop Setup](target-app/juice-shop-setup.md)
 - [DAST Baseline Scan - OWASP ZAP](scans/dast-zap-baseline.md)
+- [Finding 01 - Content Security Policy Header Not Set](findings/finding-01-csp-header-not-set.md)
 
 ## Lab Scope
 
