@@ -19,6 +19,7 @@ Completed so far:
 - Two medium-risk DAST findings documented
 - Remediation summary prepared for selected DAST findings
 -  Manual HTTP review completed with Burp Suite
+- Basic Semgrep SAST scan completed and summarized
 
 Next planned steps:
 
@@ -62,6 +63,7 @@ Local URL:
 - [Finding 02 - Cross-Domain Misconfiguration](findings/finding-02-cors-misconfiguration.md)
 - [Remediation Summary - DAST Findings](remediation/remediation-summary.md)
 - [Manual HTTP Review - Burp Suite](scans/burp-manual-http-review.md)
+- [SAST Scan - Semgrep](scans/sast-semgrep.md)
 
 ## Lab Scope
 
