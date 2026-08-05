@@ -64,6 +64,7 @@ Local URL:
 - [Remediation Summary - DAST Findings](remediation/remediation-summary.md)
 - [Manual HTTP Review - Burp Suite](scans/burp-manual-http-review.md)
 - [SAST Scan - Semgrep](scans/sast-semgrep.md)
+- [Finding 03 - Possible Sequelize Injection](findings/finding-03-possible-sequelize-injection.md)
 
 ## Lab Scope
 
