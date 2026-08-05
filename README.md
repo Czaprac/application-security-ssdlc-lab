@@ -65,6 +65,7 @@ Local URL:
 - [Manual HTTP Review - Burp Suite](scans/burp-manual-http-review.md)
 - [SAST Scan - Semgrep](scans/sast-semgrep.md)
 - [Finding 03 - Possible Sequelize Injection](findings/finding-03-possible-sequelize-injection.md)
+- [Finding 04 - Hardcoded JWT Secret](findings/finding-04-hardcoded-jwt-secret.md)
 
 ## Lab Scope
 
